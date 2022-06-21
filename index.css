@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button {
+    height: 20px;
+    width: 50px;
+}
+
+.pic {
+    margin-top: 50px;
+}
+
+#pic {
+    transition: 1s;
+}
+
+#pic:hover {
+    transform: scale(2)
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 5px solid yellow;
+
+    transition: all 1s ease-in-out;
+}

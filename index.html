@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="button">P</button>
+    <div class="pic">
+        <img id="pic" style="display:none; width: 100px;"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTNXxNQSBzubVcy5ZpqHHfqe31X2ldeA4Tg&usqp=CAU"
+            alt="ukraine">
+    </div>
+    <div>
+        <input id="text" type="text">
+        <button id="button">text</button>
+    </div>
+    <div>
+        <a class="link" href="https://www.google.com/" title="">Текст первой ссылки</a>
+    </div>
+    <div>
+        <a class="link" href="https://www.apple.com/" title="">Текст второй ссылки</a>
+    </div>
+    <div>
+        <a class="link" href="https://www.youtube.com/" title="">Текст третьей ссылки</a>
+    </div>
+    <button id="btn" onclick="myFunction()">text</button>
+    </div>
+    <div>
+        <input id="input1" type="text">
+        <button id="buttonStart">start</button>
+    </div>
+    <div id="circle" class="circle"></div>
+
+    <button onclick="logDataAttr(event)">First</button>
+    <button onclick="logDataAttr(event)" data-number="1">Second</button>
+    <button onclick="logDataAttr(event)" data-item="0" data-test="parapragh" data-color="red">Third</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
